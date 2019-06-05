@@ -16,7 +16,7 @@ public class MeetingRoom extends Space implements Schedulable {
 
     public BigDecimal calculatePricePerDay() {
         final double pricePerChair = 15;
-        BigDecimal price = new BigDecimal(15 * getChairs());
+        BigDecimal price = new BigDecimal(pricePerChair * getChairs());
         return price;
     }
 

@@ -15,7 +15,7 @@ public abstract class Space {
     private String name;
     private int chairs;
 
-    Space(String name, int chairs) {
+    protected Space(String name, int chairs) {
         this.name = name;
         this.chairs = chairs;
     }
