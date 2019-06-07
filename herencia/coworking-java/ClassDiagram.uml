@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="256.0" y="80.0">course.oop.inheritance.MeetingRoom</node>
+    <node x="136.0" y="80.0">course.oop.inheritance.media.Speaker</node>
+    <node x="366.2857142857143" y="0.0">course.oop.inheritance.Space</node>
+    <node x="260.0" y="160.0">course.oop.inheritance.Auditorium</node>
+    <node x="0.0" y="80.0">course.oop.inheritance.media.VideoBeam</node>
+    <node x="408.0" y="80.0">course.oop.inheritance.HotDesk</node>
+    <node x="120.0" y="0.0">course.oop.inheritance.Schedulable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="course.oop.inheritance.media.VideoBeam" target="course.oop.inheritance.Schedulable">
+      <point x="0.0" y="-15.0" />
+      <point x="58.0" y="55.0" />
+      <point x="142.0" y="55.0" />
+      <point x="-44.0" y="15.0" />
+    </edge>
+    <edge source="course.oop.inheritance.HotDesk" target="course.oop.inheritance.Space">
+      <point x="0.0" y="-15.0" />
+      <point x="458.0" y="55.0" />
+      <point x="429.2857142857143" y="55.0" />
+      <point x="21.0" y="15.0" />
+    </edge>
+    <edge source="course.oop.inheritance.MeetingRoom" target="course.oop.inheritance.Schedulable">
+      <point x="-33.0" y="-15.0" />
+      <point x="289.0" y="55.0" />
+      <point x="230.0" y="55.0" />
+      <point x="44.0" y="15.0" />
+    </edge>
+    <edge source="course.oop.inheritance.MeetingRoom" target="course.oop.inheritance.Space">
+      <point x="33.0" y="-15.0" />
+      <point x="355.0" y="55.0" />
+      <point x="387.2857142857143" y="55.0" />
+      <point x="-21.0" y="15.0" />
+    </edge>
+    <edge source="course.oop.inheritance.media.Speaker" target="course.oop.inheritance.Schedulable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="course.oop.inheritance.Auditorium" target="course.oop.inheritance.MeetingRoom">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="960.0" y="460.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
