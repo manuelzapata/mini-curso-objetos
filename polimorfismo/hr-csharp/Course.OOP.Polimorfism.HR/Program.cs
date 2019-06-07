@@ -24,7 +24,7 @@ namespace Course.OOP.Polimorfism.HR
                 StartDate = new DateTime(2008, 01, 01)
             };
 
-            Employee employeeTwo = (Employee)managerOne;
+            Employee employeeTwo = managerOne;
 
             //Polimorfismo por sobreescritura
 
