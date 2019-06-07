@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.OOP.Polimorfism.HR", "Course.OOP.Polimorfism.HR\Course.OOP.Polimorfism.HR.csproj", "{75108867-6C90-48FF-96E9-5C6398B7DE70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75108867-6C90-48FF-96E9-5C6398B7DE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75108867-6C90-48FF-96E9-5C6398B7DE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75108867-6C90-48FF-96E9-5C6398B7DE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75108867-6C90-48FF-96E9-5C6398B7DE70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2F43BE1-53D6-4E93-BD05-B7A29765C5F2}
+	EndGlobalSection
+EndGlobal
