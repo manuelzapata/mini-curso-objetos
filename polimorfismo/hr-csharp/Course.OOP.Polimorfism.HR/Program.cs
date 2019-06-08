@@ -7,13 +7,6 @@ namespace Course.OOP.Polimorfism.HR
     {
         static void Main(string[] args)
         {
-            Employee employeeOne = new Employee {
-                EmployeeID = 1,
-                FirstName = "Juan",
-                LastName = "De Las Nieves",
-                BaseSalary = 1000,
-                StartDate = new DateTime(2019, 01, 01)
-            };
 
             Manager managerOne = new Manager {
                 EmployeeID = 2,
@@ -24,7 +17,25 @@ namespace Course.OOP.Polimorfism.HR
                 StartDate = new DateTime(2008, 01, 01)
             };
 
+            //Polimorfismo por sobrecarga
+            /*
+            managerOne.CalculateWorkingDays();
+
+            managerOne.CalculateWorkingDays(new DateTime(2019, 1, 1));
+            */
+            Console.WriteLine();
+            
+            //El mismo objeto managerOne, pero accedido como tipo Employee.
             Employee employeeTwo = managerOne;
+
+            Employee employeeOne = new Employee
+            {
+                EmployeeID = 1,
+                FirstName = "Juan",
+                LastName = "De Las Nieves",
+                BaseSalary = 1000,
+                StartDate = new DateTime(2019, 01, 01)
+            };
 
             //Polimorfismo por sobreescritura
 
@@ -36,12 +47,8 @@ namespace Course.OOP.Polimorfism.HR
 
             Console.WriteLine("Salario managerOne: " + managerOne.CalculateNetSalary());
             Console.WriteLine();
-
-            //Polimorfismo por sobrecarga
-
-            managerOne.CalculateVacationDays();
-
-            managerOne.CalculateVacationDays(new DateTime(2019, 1, 1));
+           
+            
         }
     }
 }

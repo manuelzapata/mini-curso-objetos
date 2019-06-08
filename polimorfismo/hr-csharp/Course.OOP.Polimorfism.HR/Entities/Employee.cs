@@ -17,19 +17,19 @@ namespace Course.OOP.Polimorfism.HR.Entities
         public double BaseSalary { get; set; }
 
 
-        public int CalculateVacationDays(DateTime endDate) {
+        public int CalculateWorkingDays(DateTime endDate) {
             Console.WriteLine("Método con parámetros");
             int days = Math.Abs((endDate - StartDate).Days);
             return days;
         }
 
-        public int CalculateVacationDays() {
+        public int CalculateWorkingDays() {
             Console.WriteLine("Método sin parámetros");
-            int result = CalculateVacationDays(DateTime.Now);
+            int result = CalculateWorkingDays(DateTime.Now);
             return result;
         }
 
-        public double CalculateNetSalary() {
+        public virtual double CalculateNetSalary() {
 
             Console.WriteLine("Estamos en la clase Employee");
 
