@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="88.0" y="0.0">course.oop.composition_over_inheritance.composition.Sport</node>
+    <node x="153.0" y="155.0">course.oop.composition_over_inheritance.composition.Team</node>
+    <node x="0.0" y="80.0">course.oop.composition_over_inheritance.composition.Basketball</node>
+    <node x="0.0" y="155.0">course.oop.composition_over_inheritance.composition.Category</node>
+    <node x="144.0" y="80.0">course.oop.composition_over_inheritance.composition.Football</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="course.oop.composition_over_inheritance.composition.Basketball" target="course.oop.composition_over_inheritance.composition.Sport">
+      <point x="0.0" y="-15.0" />
+      <point x="62.0" y="55.0" />
+      <point x="109.0" y="55.0" />
+      <point x="-21.0" y="15.0" />
+    </edge>
+    <edge source="course.oop.composition_over_inheritance.composition.Football" target="course.oop.composition_over_inheritance.composition.Sport">
+      <point x="0.0" y="-15.0" />
+      <point x="198.0" y="55.0" />
+      <point x="151.0" y="55.0" />
+      <point x="21.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="42.0" y="55.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
