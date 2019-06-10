@@ -7,13 +7,11 @@ namespace Course.OOP.ProgramAbstraction.Example
     {
 
         /**El parámetro cierra la implementación solo a parámetros List<Destination>*/
-        public decimal CalculatePrice(List<Destination> destinations) {
+        public decimal CalculatePrice(IList<Destination> destinations) {
 
             return 1000;
 
         }
-
-
 
     }
 }

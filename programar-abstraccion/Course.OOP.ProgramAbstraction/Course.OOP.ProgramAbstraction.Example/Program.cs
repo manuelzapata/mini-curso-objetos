@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace Course.OOP.ProgramAbstraction.Example
@@ -7,7 +8,7 @@ namespace Course.OOP.ProgramAbstraction.Example
     class Program
     {
 
-        public static void main(string[] args) {
+        public static void Main(string[] args) {
 
             TripCalculator calculator = new TripCalculator();
 
