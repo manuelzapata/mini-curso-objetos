@@ -16,9 +16,9 @@ public class Program {
 
         //Polimorfismo por sobrecarga
 
-        managerOne.CalculateVacationDays();
+        managerOne.calculateWorkingDays();
 
-        managerOne.CalculateVacationDays(LocalDate.of(2019, 1, 1));
+        managerOne.calculateWorkingDays(LocalDate.of(2019, 1, 1));
         System.out.println();
 
         Employee employeeOne = new Employee(1,
@@ -31,13 +31,13 @@ public class Program {
 
         //Polimorfismo por sobreescritura
 
-        System.out.println("Salario employeeOne: " + employeeOne.CalculateNetSalary());
+        System.out.println("Salario employeeOne: " + employeeOne.calculateNetSalary());
         System.out.println();
 
-        System.out.println("Salario employeeTwo: " + employeeTwo.CalculateNetSalary());
+        System.out.println("Salario employeeTwo: " + employeeTwo.calculateNetSalary());
         System.out.println();
 
-        System.out.println("Salario managerOne: " + managerOne.CalculateNetSalary());
+        System.out.println("Salario managerOne: " + managerOne.calculateNetSalary());
         System.out.println();
 
 

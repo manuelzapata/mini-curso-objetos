@@ -11,10 +11,10 @@ public class Manager extends Employee {
         this.bonus = bonus;
     }
 
-    public double CalculateNetSalary()
+    public double calculateNetSalary()
     {
         System.out.println("Estamos en la clase Manager");
-        double baseSalary = super.CalculateNetSalary();
+        double baseSalary = super.calculateNetSalary();
         baseSalary += bonus;
         return baseSalary;
     }

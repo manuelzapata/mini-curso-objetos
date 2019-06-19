@@ -19,20 +19,20 @@ public class Employee {
         this.baseSalary = baseSalary;
     }
 
-    public int CalculateVacationDays(LocalDate endDate) {
+    public int calculateWorkingDays(LocalDate endDate) {
         System.out.println("Método con parámetros");
 
         int days = (int)Duration.between(startDate.atStartOfDay(), endDate.atStartOfDay()).toDays();
         return days;
     }
 
-    public int CalculateVacationDays() {
+    public int calculateWorkingDays() {
         System.out.println("Método sin parámetros");
-        int result = CalculateVacationDays(LocalDate.now());
+        int result = calculateWorkingDays(LocalDate.now());
         return result;
     }
 
-    public double CalculateNetSalary() {
+    public double calculateNetSalary() {
 
         System.out.println("Estamos en la clase Employee");
 
